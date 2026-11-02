@@ -1,0 +1,22 @@
+{
+  "repository": "yihong1120/Construction-Hazard-Detection",
+  "revision": "212ee245136b4e330f84b409f67f3d35eff59f42",
+  "file": "models/yolo11/onnx/yolo11n.onnx",
+  "sha256": "1eb7911cbfcae972da752a7cd9d3939c8e060f0bf0f7e8b4d0ab6cd979703165",
+  "size_bytes": 10590715,
+  "license": "AGPL-3.0",
+  "source": "https://huggingface.co/yihong1120/Construction-Hazard-Detection",
+  "labels": [
+    "Hardhat",
+    "Mask",
+    "NO-Hardhat",
+    "NO-Mask",
+    "NO-Safety Vest",
+    "Person",
+    "Safety Cone",
+    "Safety Vest",
+    "machinery",
+    "vehicle"
+  ],
+  "note": "Replacement pretrained model by the upstream author. Not the lost AJAI model. Labels verified from this exact ONNX artifact, not the current model card."
+}

@@ -1,0 +1,52 @@
+/* AJAI development API documentation branding. */
+:root { color-scheme: dark; }
+html, body { margin: 0; background: #090c19; }
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; }
+.swagger-ui { color: #e3e0ed; }
+.swagger-ui .topbar { background: #111323; border-bottom: 1px solid #363047; padding: 14px 0; }
+.swagger-ui .topbar .link img, .swagger-ui .topbar .link svg, .swagger-ui .topbar .link span { display: none; }
+.swagger-ui .topbar .link { gap: 12px; color: #f4efff; font-weight: 800; letter-spacing: .1em; }
+.swagger-ui .topbar .link::before { content: ''; width: 34px; height: 34px; background: url('favicon.svg') center / contain no-repeat; }
+.swagger-ui .topbar .link::after { content: 'AJAI / API WORKSPACE'; font-size: 15px; }
+.swagger-ui .topbar .download-url-wrapper { display: none; }
+.swagger-ui .wrapper { max-width: 1240px; padding: 0 28px; }
+.swagger-ui .info { margin: 28px 0; }
+.swagger-ui .info::before { content: ''; display: block; width: 100%; aspect-ratio: 3 / 1; background: url('ajai-banner.png') center / cover no-repeat; border-radius: 20px; border: 1px solid #403052; margin-bottom: 28px; box-shadow: 0 20px 70px #04060d; }
+.swagger-ui .info .title { color: #f4efff; font-size: 28px; letter-spacing: -.035em; }
+.swagger-ui .info .title small { border-radius: 5px; background: #6b45b3; }
+.swagger-ui .info a, .swagger-ui a.nostyle { color: #c6adf1; }
+.swagger-ui .info p, .swagger-ui .info li, .swagger-ui .info .base-url { color: #b8b4ca; }
+.swagger-ui .scheme-container { background: #121525; border-block: 1px solid #302a42; box-shadow: none; margin-bottom: 28px; }
+.swagger-ui select, .swagger-ui input, .swagger-ui textarea { color: #e6e0f0; background: #171a2b; border-color: #504366; }
+.swagger-ui .btn { color: #ded5ee; border-color: #665780; border-radius: 9px; box-shadow: none; }
+.swagger-ui .btn.authorize { color: #c5b5f0; border-color: #a77cdb; }
+.swagger-ui .btn.authorize svg { fill: #c5b5f0; }
+.swagger-ui .opblock-tag { color: #ece6f5; border-bottom-color: #3a304c; font-size: 22px; }
+.swagger-ui .opblock-tag small { color: #aaa3b9; }
+.swagger-ui .opblock { border-radius: 12px; box-shadow: none; overflow: hidden; margin-bottom: 12px; }
+.swagger-ui .opblock .opblock-summary { min-height: 56px; padding: 9px 14px; }
+.swagger-ui .opblock .opblock-summary-path { color: #ece6f5; font-size: 15px; }
+.swagger-ui .opblock .opblock-summary-description { color: #c8bed4; }
+.swagger-ui .opblock.opblock-get { background: #14252b; border-color: #367783; }
+.swagger-ui .opblock.opblock-get .opblock-summary-method { background: #217783; }
+.swagger-ui .opblock.opblock-post { background: #201d36; border-color: #7254a4; }
+.swagger-ui .opblock.opblock-post .opblock-summary-method { background: #7751b1; }
+.swagger-ui .opblock .opblock-section-header { background: #171a2b; box-shadow: none; }
+.swagger-ui .opblock .opblock-section-header h4, .swagger-ui .opblock .opblock-section-header label { color: #e3d9ee; }
+.swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-external-docs-wrapper p, .swagger-ui .opblock-title_normal p, .swagger-ui label, .swagger-ui .parameter__name, .swagger-ui .parameter__type, .swagger-ui table thead tr th, .swagger-ui .response-col_status, .swagger-ui .response-col_links { color: #d4c9df; }
+.swagger-ui .model, .swagger-ui .model-title, .swagger-ui section.models h4 { color: #ddd5e8; }
+.swagger-ui section.models { border-color: #44354f; border-radius: 12px; }
+.swagger-ui section.models .model-container, .swagger-ui .model-box { background: #151725; }
+.swagger-ui .model-toggle::after, .swagger-ui .opblock-control-arrow, .swagger-ui .expand-operation { filter: invert(.8); }
+.swagger-ui .dialog-ux .modal-ux { background: #151725; border-color: #614885; border-radius: 18px; color: #ece6f5; }
+.swagger-ui .dialog-ux .modal-ux-header h3, .swagger-ui .dialog-ux .modal-ux-content h4 { color: #ece6f5; }
+.swagger-ui .dialog-ux .modal-ux-header { border-bottom-color: #44354f; }
+.swagger-ui .authorization__btn svg, .swagger-ui .copy-to-clipboard { filter: brightness(1.4); }
+@media (max-width: 640px) {
+  .swagger-ui .wrapper { padding: 0 14px; }
+  .swagger-ui .info { margin-top: 18px; }
+  .swagger-ui .info::before { border-radius: 12px; margin-bottom: 20px; }
+  .swagger-ui .info .title { font-size: 23px; }
+  .swagger-ui .opblock .opblock-summary-path { font-size: 12px; }
+  .swagger-ui .topbar .link::after { font-size: 12px; }
+}
